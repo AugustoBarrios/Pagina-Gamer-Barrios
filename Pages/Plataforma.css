@@ -31,13 +31,6 @@
     text-align: center;
 }
 
-ul li{
-    list-style: none;
-    color: white;
-}
-
-/* Aqui termina el Menu */
-
 body{
     background-color: rgb(70, 69, 69);
 }
@@ -47,17 +40,7 @@ h1{
     margin-top: 60px;
 }
 
-/* aqui termina el body */
-
-.FooterGrid{
-    display: grid;
-    background-color: gray;
-    grid-template-columns: 1fr 1fr 1fr;
-    
-}
-
-.Footer{
-    background-color: black;
-    text-align: center;
+.btn{
+    width: 250px;
     
 }
