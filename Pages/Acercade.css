@@ -1,0 +1,48 @@
+body{
+    background-color: rgb(49, 49, 49);
+    text-align: center;
+}
+
+.menu{
+    width: 900px;
+    margin: 0 auto;
+}
+
+header{
+    background: rgb(0, 0, 0);
+    width: 100%;
+    border-radius: 25px;
+    text-align: center;
+    transform: translateY(-35%);
+    
+}
+ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 15px;
+    color: aliceblue;
+}
+
+p{
+    text-align: justify;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-bottom: solid 1px;
+    padding-bottom: 50px;
+}
+
+h1{
+    color: white;
+}
+
+.footer{
+    width: 900px;
+    margin: 0 auto;
+}
+
+footer{
+    background: rgb(0, 0, 0);
+    width: 100%;
+    text-align: center;
+    transform: translateY(620px);
+}

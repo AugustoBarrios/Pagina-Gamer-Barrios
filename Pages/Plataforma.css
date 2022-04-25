@@ -1,0 +1,63 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+@keyframes un_efecto{
+    0%{width: 0%; background-color: yellow;}
+    100%{width: 100%; background-color: yellow;}
+}
+
+.Animacion{
+    width: 100%;
+    height: 2px;
+    background-color: var(--bs-body-color);
+    animation-name: un_efecto;
+    animation-iteration-count: unset;
+    animation-timing-function: ease-in;
+    animation-duration: 2s;
+}
+
+.HeaderGrid{
+    display: grid;
+    background-color: gray;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.class{
+    color: white;
+    background-color:black;
+    border: 3px solid gray;
+    text-align: center;
+}
+
+ul li{
+    list-style: none;
+    color: white;
+}
+
+/* Aqui termina el Menu */
+
+body{
+    background-color: rgb(70, 69, 69);
+}
+
+h1{
+    text-align: center;
+    margin-top: 60px;
+}
+
+/* aqui termina el body */
+
+.FooterGrid{
+    display: grid;
+    background-color: gray;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+}
+
+.Footer{
+    background-color: black;
+    text-align: center;
+    
+}

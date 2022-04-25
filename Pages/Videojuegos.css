@@ -1,0 +1,60 @@
+body{    
+   text-align: center;
+   background-color: rgb(49, 49, 49);
+    height: 100vh;
+    background-size: cover;
+}
+
+.menu{
+    width: 900px;
+    margin: 0 auto;
+}
+
+#Buscador{
+    width: 300px;
+    padding: 10px;
+}
+
+header{
+    background: rgb(0, 0, 0);
+    width: 100%;
+    padding-top: 5%;
+    border-radius: 25px;
+    text-align: center;
+    transform: translateY(-35%);
+}
+ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 15px;
+    color: aliceblue;
+}
+
+p{
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.BotonDeCompra{
+    color: white;
+    border: solid 3px;
+    border-radius: 5px;
+    border-color: blue;
+    background-color: blue;
+    width: 100px;
+    margin: 0 auto;
+}
+
+.footer{
+    width: 900px;
+    margin: 0 auto;
+}
+
+footer{
+    background: rgb(0, 0, 0);
+    width: 100%;
+    text-align: center;
+    transform: translateY(200px);
+}
+
