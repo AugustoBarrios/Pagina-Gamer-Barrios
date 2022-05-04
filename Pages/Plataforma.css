@@ -18,18 +18,6 @@
     animation-duration: 2s;
 }
 
-.HeaderGrid{
-    display: grid;
-    background-color: gray;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-}
-
-.class{
-    color: white;
-    background-color:black;
-    border: 3px solid gray;
-    text-align: center;
-}
 
 body{
     background-color: rgb(70, 69, 69);

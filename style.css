@@ -1,34 +1,33 @@
-*{
-    margin: 0%;
-    padding: 0%;
-}
+* {
+  margin: 0px;
+  padding: 0px; }
 
-@keyframes un_efecto{
-    0%{width: 0%; background-color: yellow;}
-    100%{width: 100%; background-color: yellow;}
-}
+.Animacion {
+  width: 100%;
+  height: 2px;
+  background-color: var(--bs-body-color);
+  animation-name: un_efecto;
+  animation-iteration-count: unset;
+  animation-timing-function: ease-in;
+  animation-duration: 2s; }
 
-.Animacion{
+@keyframes un_efecto {
+  0% {
+    width: 0%;
+    background-color: yellow; }
+  100% {
     width: 100%;
-    height: 2px;
-    background-color: var(--bs-body-color);
-    animation-name: un_efecto;
-    animation-iteration-count: unset;
-    animation-timing-function: ease-in;
-    animation-duration: 2s;
-}
+    background-color: yellow; } }
 
+body {
+  background-color: #313131; }
 
-body{
-    background-color: rgb(49, 49, 49);
-}
-h1{
-    text-align: center;
-}
-p{
-    text-align: center;
-    color: white;
-    padding-bottom: 20%;
-    width: 100%;
-    height: 100%;
-}
+h1 {
+  text-align: center; }
+
+p {
+  text-align: center;
+  color: white;
+  padding-bottom: 20%;
+  width: 100%;
+  height: 100%; }
