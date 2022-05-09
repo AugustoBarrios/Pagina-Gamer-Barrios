@@ -1,0 +1,71 @@
+body{
+    background-color: rgb(49, 49, 49);
+    text-align: center;
+}
+
+@keyframes un_efecto{
+    0%{width: 0%; background-color: yellow;}
+    100%{width: 100%; background-color: yellow;}
+}
+
+.Animacion{
+    width: 100%;
+    height: 2px;
+    background-color: var(--bs-body-color);
+    animation-name: un_efecto;
+    animation-iteration-count: unset;
+    animation-timing-function: ease-in;
+    animation-duration: 2s;
+}
+
+.CajaDeInformacion{
+    height: 800px;
+    width: 800px;
+    background-color: var(--bs-body-color);
+    padding: 50px;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 300px;
+}
+
+h2{
+    color: white;
+}
+
+.CajaDeInformacion__Datos{
+    width: 500px;
+    height: 50px;
+    border-radius: 5px;
+    border-color: white;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+.CajaDeInformacion__Comentario{
+    width: 500px;
+    height: 50px;
+    border-radius: 5px;
+    border-color: white;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+.CajaDeInformacion__Boton{
+    width: 250px;
+    height: 50px;
+    color: white;
+    border-radius: 25px;
+    background-color: #0d6efd;
+    border:none;
+    font-size: 20px;
+    margin-top: 25px;
+}
+
+.CajaDeInformacion p{
+    color: white;
+    margin-top: 40px;
+}
+
+ul{
+    list-style-type: none;
+}

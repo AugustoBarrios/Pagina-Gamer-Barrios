@@ -7,78 +7,185 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="Keywords" content="Game , Online Game , game platforms , consoles ,Video Game , Player , Entertainment , Buy Game , Shop Game"> 
   <meta name="description" content="Compra y vende videojueos de forma segura , comparte tu opinion sobre un producto y debate con distintas personas">
-    <link rel="stylesheet" href="Videojuegos.css">
+  <link href="/asetss/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+   <link rel="stylesheet" href="Videojuegos.css">
     <title>Tu Mundo!</title>
 </head>
-<header>
-    <section>
-        <input type="text" name="Buscar" id="Buscador" placeholder="Buscar" >
-    </section>
-    <div class="menu">
-        <ul>
-            <a href="/index.html">
-                <li>inicio</li>
-            </a>
-            <a href="./Plataforma.html">
-                <li>Plataformas</li>
-            </a>
-            <a href="./Videojuegos.html">
-                <li>Videojuegos</li>
-            </a>
-            <a href="./Acercade.html">
-                <li>Acerca de</li>
-            </a>
-            <a href="./Contacto.html">
-                <li>Contacto</li>
-            </a>
-        </ul>
+<Header>
+    <div class="container-fluid">
+        <div class="fixed-top">
+            <div class="Animacion"></div>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light navbar navbar-dark bg-dark">
+                <div class="container">
+                    <a class="navbar-brand" href="/index.html">Tu Mundo</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="/index.html">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page"
+                                    href="/Pages/Plataforma.html">Plataformas</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page"
+                                    href="/Pages/Videojuegos.html">VideoJuegos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="/Pages/Acercade.html">Acerca De</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="/Pages/Contacto.html">Contacto</a>
+                            </li>
+                        </ul>
+                        <form class="d-flex">
+                            <input class="form-control me-2" type="search" placeholder="Buscador" aria-label="Search">
+                            <button class="btn btn-outline-success" type="submit">Buscar</button>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+        </div>
     </div>
-</header>
+</Header>
 
 <body>
     <h1>Videojuegos</h1>
-
-    <div id="imagenes-y-textos">
-        <img src="../asetss/Videojuegos-Call of duty.jpg" alt="Call of duty" id="Cod"><br>
-        <a href="#">
-            <h3 class="BotonDeCompra"> Comprar</h3>
-        </a>
-        <p><strong>Call of Duty Modern Warfare</strong>: es un videojuego de guerra y no pretende ser nada más.
-            La mencionada similitud con un simulador se limita al diseño, los gráficos y el conjunto que enmarca el
-            gunplay.
-            Pero la jugabilidad se mantiene fiel a las raices: es rápida y - sobre todo - muy divertida.</p>
-
-        <img src="../asetss/Videojuegos-Elden Ring.jpg" alt="Elden ring"><br>
-        <a href="#">
-            <h3 class="BotonDeCompra"> Comprar</h3>
-        </a>
-        <p><strong>Elden Ring</strong>: es un juego de rol de acción en tercera persona desarrollado por FromSoftware y
-            publicado por Bandai Namco Entertainment para Microsoft Windows, PlayStation 4, PlayStation 5 y Xbox One. El videojuego
-            surge de una colaboración entre el director y diseñador Hidetaka Miyazaki y el novelista de fantasía George
-            R. R. Martin. </p>
-
-
-        <img src="../asetss/Videojuegos-Minecraft.webp" alt="Minecraft"><br>
-        <a href="#">
-            <h3 class="BotonDeCompra"> Comprar</h3>
-        </a>
-        <p><strong>Minecraft</strong>: es un videojuego de mundo abierto donde la exploración y las construcciones son
-            fundamentales. Creado por Markus "Notch" Persson, nos permite desarrollar nuestros propios universos
-            fantásticos y artísticos, mediante la colocación y destrucción de bloques. Al ser un videojuego de mundo
-            abierto, no tiene una misión concreta (salvo alguno de sus modos de juego) y consiste en la construcción
-            libre mediante el uso de cubos con texturas tridimensionales. Los bloques representan distintos
-            elementos de la naturaleza y el jugador puede desplazarse por su entorno y modificarlo mediante la
-            creación, recolección y transporte de esos bloques.</p>
+    <div class="container">
+        <div class="card mb-3 mt-5 text-light bg-dark">
+            <div class="row g-0">
+                <div class="col-md-4 d-flex justify-content-center">
+                    <img src="/asetss/Videojuegos-Call of duty.jpg" class="img-fluid rounded-start " alt="Pc Gamer">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">Lorem Ipsum</h5>
+                        <h6> 50.000</h6>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                            tempor incididunt ut labore et dolore magna
+                            aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                            ex ea commodo consequat.
+                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                            pariatur. Excepteur
+                            sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+                            laborum.</p>
+                        <p class="card-text"><small class="text-muted">Loren Ipsum</small></p>
+                    </div>
+                </div>
+                <div class="d-grid gap-2 d-md-flex justify-content-end pb-3 px-3">
+                    <button class="btn btn-primary me-md-2" type="button">Comprar</button>
+                </div>
+            </div>
+        </div>
+        <div class="card mb-3 text-light bg-dark">
+            <div class="row g-0">
+                <div class="col-md-4 d-flex justify-content-center ">
+                    <img src="/asetss/EldenRing.jpg" class="img-fluid rounded-start" alt="Pc Gamer">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">Lorem Ipsum</h5>
+                        <h6> 50.000</h6>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                            tempor incididunt ut labore et dolore magna
+                            aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                            ex ea commodo consequat.
+                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                            pariatur. Excepteur
+                            sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+                            laborum.</p>
+                        <p class="card-text"><small class="text-muted">Lorem Ipsum</small></p>
+                    </div>
+                </div>
+                <div class="d-grid gap-2 d-md-flex justify-content-end pb-3 px-3">
+                    <button class="btn btn-primary me-md-2" type="button">Comprar</button>
+                </div>
+            </div>
+        </div>
+        <div class="card mb-5 text-light bg-dark">
+            <div class="row g-0">
+                <div class="col-md-4 d-flex justify-content-center">
+                    <img src="/asetss/Minecraft.jpg" class="img-fluid rounded-start" alt="Pc Gamer">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">Lorem Ipsum</h5>
+                        <h6> 50.000</h6>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                            tempor incididunt ut labore et dolore magna
+                            aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                            ex ea commodo consequat.
+                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                            pariatur. Excepteur
+                            sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+                            laborum.</p>
+                        <p class="card-text"><small class="text-muted">Lorem Ipsum</small></p>
+                    </div>
+                </div>
+                <div class="d-grid gap-2 d-md-flex justify-content-end pb-3 px-3">
+                    <button class="btn btn-primary me-md-2" type="button">Comprar</button>
+                </div>
+            </div>
+        </div>
     </div>
-    <footer>
-        <div class="footer">
-         <ul>
-             <a href="#"><li>Redes Sociales</li></a>
-             <a href="#"><li>Informacion de la pagina</li></a>
-             <a href="#"><li>paginas similares</li></a>
-         </ul>
-       </div>
-     </footer>
+     <script src="/asetss/js/bootstrap.bundle.min.js"></script>
 </body>
-
+<footer class="bg-dark text-white">
+    <nav class="container-fluid">
+        <div class="row">
+          <div class="col-2"></div>
+          <div class="col-2"></div>
+          <div class="col-2"></div>
+          <div class="col-2"><h5>Lorem ipsum</h5></div>
+          <div class="col-2"><h5>Lorem Ipsum</h5></div>
+          <div class="col-2"></div>
+        </div>
+    </nav>
+    <nav class="container-fluid">
+        <div class="row">
+          <div class="col-2"></div>
+          <div class="col-2"></div>
+          <div class="col-2"></div>
+          <div class="col-2"><a href="#" style="text-decoration: none; color: white;"><ul><li>Lorem ipsum</li></ul></a></div>
+          <div class="col-2"><a href="#" style="text-decoration: none; color: white;"><ul><li>Lorem ipsum</li></ul></a></div>
+          <div class="col-2"></div>
+        </div>
+    </nav>
+    <nav class="container-fluid">
+        <div class="row">
+          <div class="col-2"></div>
+          <div class="col-2"><h3>Tu Mundo</h3></div>
+          <div class="col-2"></div>
+          <div class="col-2"><a href="#" style="text-decoration: none; color: white;"><ul><li>Lorem ipsum</li></ul></a></div>
+          <div class="col-2"><a href="#" style="text-decoration: none; color: white;"><ul><li>Lorem ipsum</li></ul></a></div>
+          <div class="col-2"></div>
+        </div>
+    </nav>
+    <nav class="container-fluid">
+        <div class="row">
+            <div class="col-2"></div>
+            <div class="col-2"></div>
+            <div class="col-2"></div>
+            <div class="col-2"><a href="#" style="text-decoration: none; color: white;"><ul><li>Lorem ipsum</li></ul></a></div>
+            <div class="col-2"><a href="#" style="text-decoration: none; color: white;"><ul><li>Lorem ipsum</li></ul></a></div>
+            <div class="col-2"></div>
+        </div>
+    </nav>
+    <nav class="container-fluid">
+      <div class="row">
+          <div class="col-2"></div>
+          <div class="col-2"></div>
+          <div class="col-2"></div>
+          <div class="col-2"></div>
+          <div class="col-2"></div>
+          <div class="col-2"></div>
+      </div>
+  </nav>
+  </footer>
 </html>

@@ -1,60 +1,36 @@
-body{    
-   text-align: center;
-   background-color: rgb(49, 49, 49);
-    height: 100vh;
-    background-size: cover;
-}
+body {
+  background-color: #313131;
+  height: 100vh;
+  background-size: cover; }
 
-.menu{
-    width: 900px;
-    margin: 0 auto;
-}
+.btn {
+  width: 250px; }
 
-#Buscador{
-    width: 300px;
-    padding: 10px;
-}
-
-header{
-    background: rgb(0, 0, 0);
+@keyframes un_efecto {
+  0% {
+    width: 0%;
+    background-color: yellow; }
+  100% {
     width: 100%;
-    padding-top: 5%;
-    border-radius: 25px;
-    text-align: center;
-    transform: translateY(-35%);
-}
-ul li{
-    list-style: none;
-    display: inline-block;
-    padding: 15px;
-    color: aliceblue;
-}
+    background-color: yellow; } }
 
-p{
-    color: white;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 20px;
-}
+.Animacion {
+  width: 100%;
+  height: 2px;
+  background-color: var(--bs-body-color);
+  animation-name: un_efecto;
+  animation-iteration-count: unset;
+  animation-timing-function: ease-in;
+  animation-duration: 2s; }
 
-.BotonDeCompra{
-    color: white;
-    border: solid 3px;
-    border-radius: 5px;
-    border-color: blue;
-    background-color: blue;
-    width: 100px;
-    margin: 0 auto;
-}
+h1 {
+  text-align: center;
+  margin-top: 80px;
+  border: 5px var(--bs-body-color) solid;
+  border-radius: 7px;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto; }
 
-.footer{
-    width: 900px;
-    margin: 0 auto;
-}
-
-footer{
-    background: rgb(0, 0, 0);
-    width: 100%;
-    text-align: center;
-    transform: translateY(200px);
-}
-
+ul {
+  list-style-type: none; }
