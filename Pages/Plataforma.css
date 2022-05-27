@@ -36,5 +36,19 @@ h1 {
 .btn {
   width: 250px; }
 
+@media (max-width: 767px){ 
+  .btn{ 
+  width: 450px;}}
+
+  @media (max-width: 576px){ 
+    .btn{ 
+    width: 360px;
+}}
+
+@media (max-width: 417px){ 
+  .btn{ 
+  width: 340px;
+}}
+
 ul {
   list-style-type: none; }

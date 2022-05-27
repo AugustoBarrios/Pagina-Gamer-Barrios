@@ -6,6 +6,20 @@ body {
 .btn {
   width: 250px; }
 
+  @media (max-width: 767px){ 
+    .btn{ 
+    width: 450px;}}
+  
+    @media (max-width: 576px){ 
+      .btn{ 
+      width: 360px;
+  }}
+  
+  @media (max-width: 417px){ 
+    .btn{ 
+    width: 340px;
+  }}
+
 @keyframes un_efecto {
   0% {
     width: 0%;

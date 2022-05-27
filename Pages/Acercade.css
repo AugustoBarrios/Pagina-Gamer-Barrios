@@ -30,14 +30,14 @@ h1 {
 
 .CardInformation1 {
   height: 300px;
-  width: 1800px;
+  width: 1600px;
   background-image: linear-gradient(to left, var(--bs-body-color), grey);
   margin-top: 20px;
   margin-left: auto;
   margin-right: auto;
   border-radius: 5px;
-  transition: height 2;
-  transition: width 2; }
+  transition:all 1s;
+}
 
 .CardInformation1:hover {
   height: 330px;
@@ -49,24 +49,22 @@ h1 {
 
 .CardIndormation1__Contenido {
   font-size: 22px;
-  width: 1650px;
+  width: 1550px;
   padding-left: 100px;
   text-align: justify;
-  transition: font-size 3; }
+  transition: font-size; }
 
-.CardIndormation1__Contenido:hover {
-  font-size: 25px; }
 
 .CardInformation2 {
   height: 300px;
-  width: 1800px;
+  width: 1600px;
   background-image: linear-gradient(to right, var(--bs-body-color), grey);
   margin-top: 20px;
   margin-left: auto;
   margin-right: auto;
   border-radius: 5px;
-  transition: height 2;
-  transition: width 2; }
+  transition:all 1s;
+}
 
 .CardInformation2:hover {
   height: 330px;
@@ -78,13 +76,146 @@ h1 {
 
 .CardIndormation2__Contenido {
   font-size: 22px;
-  width: 1650px;
+  width: 1550px;
   padding-left: 100px;
   text-align: justify;
   transition: font-size 3; }
 
-.CardIndormation2__Contenido:hover {
-  font-size: 25px; }
+  @media (max-width: 1200px){
+    .CardInformation1{
+      width: 1000px;
+      height: 200px;
+      transition:all 1s;
+    }
+
+    .CardIndormation1__Contenido{
+      width: 900px;
+      font-size: 14px;
+    }
+
+    .CardInformation1:hover{
+      height: 220px;
+      width: 1100px;
+    }
+
+    .CardInformation2{
+      width: 1000px;
+      height: 200px;
+      transition:all 1s;
+    }
+
+    .CardIndormation2__Contenido{
+      width: 900px;
+      font-size: 14px;
+    }
+
+    .CardInformation2:hover{
+      height: 220px;
+      width: 1100px;
+    }
+  }
+
+  @media (max-width: 992px){
+    .CardInformation1{
+      width: 650px;
+      height: 250px;
+      transition:all 1s;
+    }
+
+    .CardIndormation1__Contenido{
+      width: 600px;
+      font-size: 12px;
+    }
+
+    .CardInformation1:hover{
+      height: 275px;
+      width: 715px;
+    }
+
+    .CardInformation2{
+      width: 650px;
+      height: 250px;
+      transition:all 1s;
+    }
+
+    .CardIndormation2__Contenido{
+      width: 600px;
+      font-size: 12px;
+    }
+
+    .CardInformation2:hover{
+      height: 275px;
+      width: 715px;
+    }
+  }
+
+  @media (max-width: 675px){
+    .CardInformation1{
+      width: 550px;
+      height: 300px;
+      transition:all 1s;
+    }
+
+    .CardIndormation1__Contenido{
+      width: 510px;
+      font-size: 13px;
+    }
+
+    .CardInformation1:hover{
+      height: 330px;
+      width: 610px;
+    }
+
+    .CardInformation2{
+      width: 550px;
+      height: 300px;
+      transition:all 1s;
+    }
+
+    .CardIndormation2__Contenido{
+      width: 510px;
+      font-size: 13px;
+    }
+
+    .CardInformation2:hover{
+      height: 330px;
+      width: 610px;
+    }
+  }
+
+  @media (max-width: 557px){
+    .CardInformation1{
+      width: 470px;
+      height: 300px;
+      transition:all 1s;
+    }
+
+    .CardIndormation1__Contenido{
+      width: 440px;
+      font-size: 12px;
+    }
+
+    .CardInformation1:hover{
+      height: 320px;
+      width: 500px;
+    }
+
+    .CardInformation2{
+      width: 470px;
+      height: 300px;
+      transition:all 1s;
+    }
+
+    .CardIndormation2__Contenido{
+      width: 440px;
+      font-size: 12px;
+    }
+
+    .CardInformation2:hover{
+      height: 320px;
+      width: 500px;
+    }
+  }
 
 ul {
   list-style-type: none; }
