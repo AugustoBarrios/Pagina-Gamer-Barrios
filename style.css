@@ -19,11 +19,26 @@
     width: 100%;
     background-color: yellow; } }
 
+.Title{
+  text-align: center;
+  color: white;
+  margin-top: 100px;
+  animation-name: efectoTitle;
+  animation-iteration-count: unset;
+  animation-timing-function: ease-in;
+  animation-duration: 1s}
+
+@keyframes efectoTitle{
+ 0% {
+   transform: translateY(-75px);
+   opacity: 0%;
+  }
+ 100%{
+   opacity: 100%;
+  }}
+
 body {
   background-color: #313131; }
-
-h1 {
-  text-align: center; }
 
 p {
   text-align: center;

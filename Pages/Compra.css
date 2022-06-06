@@ -1,0 +1,179 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background-color: #313131;
+}
+
+/* Aqui empieza la toma de datos para la compra del usuario */
+
+.CajaDeInformacion{
+    width: 60%;
+    margin-top: 250px;
+    border-right: 1px solid;
+    border-color: rgb(122, 119, 119);
+}
+
+h6{
+    color: white;
+    font-size: 20px;
+    animation-name: Dinamismo;
+   animation-iteration-count: unset;
+   animation-timing-function: ease-in;
+   animation-duration: 1s;
+}
+
+.CajaDeInformacion__Mail{
+    margin-left: 10px;
+}
+
+.CajaDeInformacion__Mail__Input{
+    width: 500px;
+    height: 50px;
+    background-color: white;
+    border-radius: 5px;
+    border: 3px solid;
+    border-color: #0d6efd;
+    animation-name: Dinamismo;
+   animation-iteration-count: unset;
+   animation-timing-function: ease-in;
+   animation-duration: 4s;
+}
+
+.CajaDeInformacion__Localidad{
+    margin-left: 10px;
+    width: 500px;
+    display: inline-flex;}
+
+.CajaDeInformacion__Localidad__Input{
+    width: 500px;
+    height: 50px;
+    background-color: white;
+    border-radius: 5px;
+    border: 3px solid;
+    border-color: #0d6efd;
+    animation-name: Dinamismo;
+   animation-iteration-count: unset;
+   animation-timing-function: ease-in;
+   animation-duration: 4s;
+}
+
+.CajaDeInformacion__Localidad__2daCaja{
+    margin-left: 10px;
+    animation-name: Dinamismo;
+    animation-iteration-count: unset;
+    animation-timing-function: ease-in;
+    animation-duration: 4s;}
+
+.CajaDeInformacion__Postal{
+    margin-left: 10px;
+}
+
+.CajaDeInformacion__Postal__Input{
+    width: 500px;
+    height: 50px;
+    background-color: white;
+    border-radius: 5px;
+    border: 3px solid;
+    border-color: #0d6efd;
+    animation-name: Dinamismo;
+   animation-iteration-count: unset;
+   animation-timing-function: ease-in;
+   animation-duration: 4s;
+}
+
+.CajaDeInformacion__Tarjeta{
+    margin-left: 10px;
+    width: 500px;
+    display: inline-flex;}
+
+.CajaDeInformacion__Tarjeta__Input{
+    width: 500px;
+    height: 50px;
+    background-color: white;
+    border-radius: 5px;
+    border: 3px solid;
+    border-color: #0d6efd;
+    animation-name: Dinamismo;
+   animation-iteration-count: unset;
+   animation-timing-function: ease-in;
+   animation-duration: 4s;
+}    
+
+.CajaDeInformacion__Tarjeta__2daCaja{
+    margin-left: 10px;
+    animation-name: Dinamismo;
+    animation-iteration-count: unset;
+    animation-timing-function: ease-in;
+    animation-duration: 3s;}
+
+.CajaDeInformacion__Vencimiento{
+    margin-left: 10px;
+}
+
+.CajaDeInformacion__Vencimiento__Input{
+    width: 500px;
+    height: 50px;
+    background-color: white;
+    border-radius: 5px;
+    border: 3px solid;
+    border-color: #0d6efd;
+    animation-name: Dinamismo;
+   animation-iteration-count: unset;
+   animation-timing-function: ease-in;
+   animation-duration: 4s;
+}
+
+.CajaDeInformacion__Cuotas{
+    margin-left: 10px;
+}
+
+.CajaDeInformacion__Cuotas__Opciones{
+    width: 175px;
+    height: 28px;
+    background-color: white;
+    animation-iteration-count: unset;
+   animation-timing-function: ease-in;
+   animation-duration: 4s;
+}
+
+.Price{
+    width: 600px;
+    margin-left: 1150px;
+    transform: translateY(-400px);
+}    
+
+.TituloDelPrecio{
+   text-align: center;
+   color: white;
+   animation-name: Dinamismo;
+   animation-iteration-count: unset;
+   animation-timing-function: ease-in;
+   animation-duration: 1s;
+}    
+
+.TituloDelPrecio__Precio{
+    text-align: center;
+    color: white;
+    animation-name: Dinamismo;
+   animation-iteration-count: unset;
+   animation-timing-function: ease-in;
+   animation-duration: 4s;
+}
+
+.TituloDelPrecio__Precio:hover{
+    font-size: 50px;
+}
+
+@keyframes Dinamismo{
+    0%{
+        opacity: 0%;
+    }
+    100%{
+        opacity: 100%;
+    }
+}
+
+/* Aqui finaliza la toma de datos para la compra del usuario */    
