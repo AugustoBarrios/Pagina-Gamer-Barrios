@@ -49,3 +49,49 @@ p {
 
 ul {
   list-style-type: none; }
+
+  /* aqui empieza el registro del usuario */
+
+  .CajaDeInformacion {
+    height: 800px;
+    width: 600px;
+    background-color: var(--bs-body-color);
+    padding: 50px;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 300px; }
+  
+  h2 {
+    text-align: center;
+    color: white; }
+  
+  .CajaDeInformacion__Datos {
+    width: 500px;
+    height: 50px;
+    border-radius: 5px;
+    border-color: white;
+    margin-bottom: 15px;
+    font-size: 20px; }
+  
+  .CajaDeInformacion__Comentario {
+    width: 500px;
+    height: 50px;
+    border-radius: 5px;
+    border-color: white;
+    margin-bottom: 15px;
+    font-size: 20px; }
+  
+  .CajaDeInformacion__Boton {
+    width: 250px;
+    height: 50px;
+    color: white;
+    border-radius: 25px;
+    background-color: #0d6efd;
+    border: none;
+    font-size: 20px;
+    margin-top: 25px;
+  margin-left: 125px;} 
+  
+  .CajaDeInformacion p {
+    color: white;
+    margin-top: 40px; }
