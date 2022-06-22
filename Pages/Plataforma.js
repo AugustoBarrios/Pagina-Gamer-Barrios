@@ -1,9 +1,9 @@
 class Plataformas{
     constructor(Nombre, Modelo, Precio, Stock,){
-        this.Nombre = Nombre
-        this.Modelo = Modelo
-        this.Precio = Precio
-        this.Stock = Stock
+        this.Nombres = Nombre
+        this.Modelos = Modelo
+        this.Precios = Precio
+        this.Stocks = Stock
         this.Id = Math.random()
     }
     CalcularIVA() {

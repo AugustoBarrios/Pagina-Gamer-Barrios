@@ -25,6 +25,31 @@ h6{
    animation-duration: 1s;
 }
 
+.CajaDeInformacion__Nombre{
+    margin-left: 10px;
+    width: 500px;
+    display: inline-flex;}
+
+.CajaDeInformacion__Nombre__Input{
+    width: 500px;
+    height: 50px;
+    background-color: white;
+    border-radius: 5px;
+    border: 3px solid;
+    border-color: #0d6efd;
+    animation-name: Dinamismo;
+   animation-iteration-count: unset;
+   animation-timing-function: ease-in;
+   animation-duration: 4s;
+}
+
+.CajaDeInformacion__Nombre__2daCaja{
+    margin-left: 10px;
+    animation-name: Dinamismo;
+    animation-iteration-count: unset;
+    animation-timing-function: ease-in;
+    animation-duration: 4s;}
+
 .CajaDeInformacion__Mail{
     margin-left: 10px;
 }
@@ -41,6 +66,13 @@ h6{
    animation-timing-function: ease-in;
    animation-duration: 4s;
 }
+
+/* CajaDeInformacion__Mail__2daCaja{
+    margin-left: 10px;
+    animation-name: Dinamismo;
+    animation-iteration-count: unset;
+    animation-timing-function: ease-in;
+    animation-duration: 4s;} */
 
 .CajaDeInformacion__Localidad{
     margin-left: 10px;
@@ -131,8 +163,13 @@ h6{
 }
 
 .CajaDeInformacion__Cuotas__Opciones{
-    width: 175px;
-    height: 28px;
+    width: 497px;
+    height: 50px;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 3px solid;
+    border-color: #0d6efd;
     background-color: white;
     animation-iteration-count: unset;
    animation-timing-function: ease-in;
@@ -146,6 +183,8 @@ h6{
 }    
 
 .TituloDelPrecio{
+    width: 550px;
+   margin-left: 36%;
    text-align: center;
    color: white;
    animation-name: Dinamismo;
@@ -155,6 +194,8 @@ h6{
 }    
 
 .TituloDelPrecio__Precio{
+    width: 550px;
+    margin-left: 36%;
     text-align: center;
     color: white;
     transition: 1s;
