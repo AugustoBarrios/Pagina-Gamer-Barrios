@@ -1,17 +1,42 @@
-debugger
-
-let Nombre = prompt("Ingrese su nombre")
-let Apellido = prompt("Ingrese su/s apellido/s")
-
-if (((Nombre!="") && (Apellido!="")) || (Nombre=="Augusto")){
-    alert( "Bienvenido" + " " + Apellido + " " + Nombre)
-} else if (Nombre===""){
-    alert("Los datos ingresados no son validos , intenta de nuevo") 
-
+function TomarDatos(){
+    let Nombres = document.getElementById("Nombre").value;
+    let Apellidos = document.getElementById("Apellido").value;
+    let Emails = document.getElementById("Email").value;
+    let Telefonos = document.getElementById("Telefono").value;
+    let Usuario = document.getElementById("Usuario").value;
+    let Contraseña = document.getElementById("Contraseña").value;
+    
+    
+    function NV(Apellido, Nombre, Email, Telefono, Usuario, Contraseña){
+        this.Apellido=Apellido
+        this.Nombre=Nombre
+        this.Email=Email
+        this.Telefono=Telefono
+        this.Usuario=Usuario
+        this.Contraseña=Contraseña
+    }
+    let UsuarioNV= new NV(Apellidos, Nombres, Emails, Telefonos, Usuario, Contraseña,);
+    let Permiso = confirm("Deseas guardar tus datos para facilitar la navegacion?")
+    if(Permiso==true){
+    let CargarDatos = JSON.stringify(UsuarioNV)
+    localStorage.setItem("NuevoUsuario", CargarDatos)}
+    else{}
 }
 
-let limiteDeTiempo = parseFloat(prompt("Ingrese un numero"))
-
-for (let i = 1; i == limiteDeTiempo; i++){
-    console.log(i)
+function DatosRecuperados(){
+    let Nombres = document.getElementById("Nombre");
+    let Apellidos = document.getElementById("Apellido");
+    let Emails = document.getElementById("Email");
+    let Telefonos = document.getElementById("Telefono");
+    let Usuarios = document.getElementById("Usuario");
+    
+    const UsuarioRecuperar = JSON.parse(localStorage.getItem("NuevoUsuario"))
+    Nombres.value = UsuarioRecuperar.Nombre 
+    Apellidos.value = UsuarioRecuperar.Apellido
+    Emails.value = UsuarioRecuperar.Email
+    Telefonos.value = UsuarioRecuperar.Telefono
+    Usuarios.value = UsuarioRecuperar.Usuario
 }
+
+DatosRecuperados()
+

@@ -10,7 +10,7 @@
   <link href="./asetss/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
   <link rel="stylesheet" href="/style.css">
-  <script src="/index.js"></script> 
+  <script defer src="/index.js"></script> 
   <title>Tu Mundo</title>
 </head>
 
@@ -62,12 +62,14 @@
   <h1 class="Title">Tu Mundo</h1>
   <div class="CajaDeInformacion">
     <h2>Registrese!</h2>
-    <input class="CajaDeInformacion__Datos" type="text" name="Nombre" placeholder="Nombre">
-    <input class="CajaDeInformacion__Datos" type="text" name="Apellido" placeholder="Apellido/s">
-    <input class="CajaDeInformacion__Datos" type="email" name="Correo" placeholder="Correo electronico">
-    <input class="CajaDeInformacion__Datos" type="text" name="Telefono" placeholder="Num. Telefono">
+    <input id="Nombre" class="CajaDeInformacion__Datos" type="text" name="Nombre" placeholder="Nombre">
+    <input id="Apellido" class="CajaDeInformacion__Datos" type="text" name="Apellido" placeholder="Apellido/s">
+    <input id="Email" class="CajaDeInformacion__Datos" type="text" name="Correo" placeholder="Correo electronico">
+    <input id="Telefono" class="CajaDeInformacion__Datos" type="text" name="Telefono" placeholder="Num. Telefono">
+    <input id="Usuario" class="CajaDeInformacion__Datos" type="text" name="NombreDeUsuario" placeholder="Nombre de usuario">
+    <input id="Contraseña" class="CajaDeInformacion__Datos" type="password" name="Contraseña" placeholder="Contraseña">
     <br>
-    <input class="CajaDeInformacion__Boton" type="submit" value="Enviar">
+    <input class="CajaDeInformacion__Boton" type="submit" value="Registrar" onclick="TomarDatos()">
     <p><strong>Lorem ipsum</strong> dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
         labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
         aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum

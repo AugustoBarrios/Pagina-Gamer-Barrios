@@ -12,6 +12,7 @@
     <link href="/asetss/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="Compra.css">
+    <script defer src="./Compra.js"></script>
      
     <title>Tu Mundo!</title>
 </head>
@@ -37,7 +38,7 @@
             </div>
             <div class="CajaDeInformacion__Mail__2daCaja">
                 <h6>Telefono</h6>
-                <input id="Telefono" class="CajaDeInformacion__Mail__Input" type="text" name="Telefono" placeholder="Telefono">
+                <input id="Telefono" class="CajaDeInformacion__Mail__Input" type="number" name="Telefono" placeholder="Telefono">
             </div>
         </div>
         <div class="CajaDeInformacion__Localidad">
@@ -74,6 +75,7 @@
         <div class="CajaDeInformacion__Cuotas">
             <h6>Cuotas</h6>
             <select id="Selecion" class="CajaDeInformacion__Cuotas__Opciones" name="Cuotas" onchange="TomarCuota()">
+                <option id="UnicoPago" class="CajaDeInformacion__Cuotas__Opciones" value="1"><strong>Unico Pago</strong></option>
                 <option id="CuotasDe2" class="CajaDeInformacion__Cuotas__Opciones" ><strong>2</strong></option>
                 <option id="CuotasDe4" class="CajaDeInformacion__Cuotas__Opciones" ><strong>4</strong></option>
                 <option id="CuotasDe6" class="CajaDeInformacion__Cuotas__Opciones" ><strong>6</strong></option>
@@ -82,15 +84,70 @@
                 <option id="CuotasDe12" class="CajaDeInformacion__Cuotas__Opciones" ><strong>12</strong></option>
             </select>
         </div>
+        <div id="Separador"></div>
+        <div class="Price">
+            <h1 class="TituloDelPrecio">El precio del producto es de:</h1>
+            <h3 id="Precio" class="TituloDelPrecio__Precio">Seleccione la cantidad de cuotas a pagar</h3>
+        </div>
 
-    </div>
-    <div class="Price">
-        <h1 class="TituloDelPrecio">El precio del producto es de:</h1>
-        <h3 id="Precio" class="TituloDelPrecio__Precio">50000~$ARS</h3>
     </div>
     
-    <div><Input id="Boton" class="Boton" type="button" Value="Comprar" onclick="TomarDatos()"></Input></div>
-    <script defer src="./Compra.js"></script>
+    
+    <div class="DivBoton">
+        <Input id="Boton" class="Boton" type="button" Value="Comprar" onclick="TomarDatos()"></Input>
+    </div>
+    <script src="/asetss/js/bootstrap.bundle.min.js"></script>
 </body>
-
+<footer class="bg-dark text-white mt-5">
+    <nav class="container-fluid">
+        <div class="row">
+          <div class="col-2"></div>
+          <div class="col-2"></div>
+          <div class="col-2"></div>
+          <div class="col-2"><h5>Lorem ipsum</h5></div>
+          <div class="col-2"><h5>Lorem Ipsum</h5></div>
+          <div class="col-2"></div>
+        </div>
+    </nav>
+    <nav class="container-fluid">
+        <div class="row">
+          <div class="col-2"></div>
+          <div class="col-2"></div>
+          <div class="col-2"></div>
+          <div class="col-2"><a href="#" style="text-decoration: none; color: white;"><ul><li>Lorem ipsum</li></ul></a></div>
+          <div class="col-2"><a href="#" style="text-decoration: none; color: white;"><ul><li>Lorem ipsum</li></ul></a></div>
+          <div class="col-2"></div>
+        </div>
+    </nav>
+    <nav class="container-fluid">
+        <div class="row">
+          <div class="col-2"></div>
+          <div class="col-2"><h3>Tu Mundo</h3></div>
+          <div class="col-2"></div>
+          <div class="col-2"><a href="#" style="text-decoration: none; color: white;"><ul><li>Lorem ipsum</li></ul></a></div>
+          <div class="col-2"><a href="#" style="text-decoration: none; color: white;"><ul><li>Lorem ipsum</li></ul></a></div>
+          <div class="col-2"></div>
+        </div>
+    </nav>
+    <nav class="container-fluid">
+        <div class="row">
+            <div class="col-2"></div>
+            <div class="col-2"></div>
+            <div class="col-2"></div>
+            <div class="col-2"><a href="#" style="text-decoration: none; color: white;"><ul><li>Lorem ipsum</li></ul></a></div>
+            <div class="col-2"><a href="#" style="text-decoration: none; color: white;"><ul><li>Lorem ipsum</li></ul></a></div>
+            <div class="col-2"></div>
+        </div>
+    </nav>
+    <nav class="container-fluid">
+      <div class="row">
+          <div class="col-2"></div>
+          <div class="col-2"></div>
+          <div class="col-2"></div>
+          <div class="col-2"></div>
+          <div class="col-2"></div>
+          <div class="col-2"></div>
+      </div>
+  </nav>
+  </footer>
 </html>

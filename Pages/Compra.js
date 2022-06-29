@@ -1,41 +1,32 @@
- /* debugger  */
 
-/*const IVA = 1.21
-function pedirDatos(){
-    let valorDelProducto= parseFloat(prompt("Ingrese aqui el valor del producto deseado"))
-    let cuotas = parseFloat(prompt("Elija la cantidad de cuotas /(2 , 4 , 6 , 8 , 10 , 12 /)"))
-    IVA 
-   cotizar(valorDelProducto, cuotas, IVA)
-   console.log(cotizar)
-   if ((cuotas == 3)|| (cuotas == 5) || (cuotas == 7) || (cuotas == 9) || (cuotas == 11)){
-    alert( "El producto seleccionado no cuenta con este plazo de cuotas , lo sentimos")
-}
-}*/
 
 function cotizar( Parametro1, Parametro2, Parametro3){
     switch(Parametro2){
+        case 1:
+            let Valor = ( "$ARS " + (parseInt (Parametro1 / Parametro2 * Parametro3)))
+            return Valor
         case 2:
-            ( "$ARS " +  Parametro1 / Parametro2 * Parametro3  * 1.03)
-            break
+            let PrimerValor = ( "$ARS " + (parseInt (Parametro1 / Parametro2 * Parametro3 * 1.02)))
+            return PrimerValor
         case 4:
-            ( "$ARS " + Parametro1 / Parametro2 * Parametro3 * 1.06)
-            break
+            let segundoValor = ( "$ARS " + (parseInt (Parametro1 / Parametro2 * Parametro3 * 1.04)))
+            return segundoValor
         case 6:
-            console.log( "$ARS " + Parametro1 / Parametro2 * Parametro3 * 1.09)
-            break
+            let TercerValor = ( "$ARS " + (parseInt (Parametro1 / Parametro2 * Parametro3 * 1.06)))
+            return TercerValor
         case 8:
-            console.log( "$ARS " + Parametro1 / Parametro2 * Parametro3 * 1.12)
-            break
+            let CuartoValor = ( "$ARS " + (parseInt (Parametro1 / Parametro2 * Parametro3 * 1.08)))
+            return CuartoValor
         case 10:
-            console.log( "$ARS " + Parametro1 / Parametro2 * Parametro3 * 1.15)
-            break
+            let QuintoValor = ( "$ARS " + (parseInt (Parametro1 / Parametro2 * Parametro3 * 1.10)))
+            return QuintoValor
         case 12:
-            console.log( "$ARS " + Parametro1 / Parametro2 * Parametro3 * 1.18)
-               
+            let SextoValor = ( "$ARS " + (parseInt (Parametro1 / Parametro2 * Parametro3 * 1.12)))
+               return SextoValor
     }
 }
 
-/* pedirDatos() */
+
 
 function TomarDatos(){
     let Nombres = document.getElementById("Nombre").value;
@@ -61,21 +52,43 @@ function TomarDatos(){
         this.codigo= "Informacion Oculta"
         this.Vencimiento= "Informacion Oculta"
     }
-    let Ventas= new Venta(Apellidos, Nombres, Emails, Telefonos, Paises, Provincias, Postales, "Informacion Oculta", "Informacion Oculta", "Informacion Oculta");
+    let Ventas= new Venta(Apellidos, Nombres, Emails, Telefonos, Paises, Provincias, Postales, Tarjetas, Codigos, Vencimientos);
     console.log(Ventas)
+    let Permiso = confirm("Deseas guardar tus datos para facilitar la navegacion?")
+    if(Permiso==true){
+    let CargarDatos = JSON.stringify(Ventas)
+    localStorage.setItem("DatosImportantes", CargarDatos)}
+    else{}
 }
+
+function DatosRecuperados(){
+    let Nombres = document.getElementById("Nombre");
+    let Apellidos = document.getElementById("Apellido");
+    let Emails = document.getElementById("Email");
+    let Telefonos = document.getElementById("Telefono");
+    let Paises = document.getElementById("Pais");
+    let Provincias = document.getElementById("Provincia");
+    let Postales = document.getElementById("Postal");
+    
+    
+    const DatosAProtejer = JSON.parse(localStorage.getItem("DatosImportantes"))
+    Nombres.value =  DatosAProtejer.Nombre 
+    Apellidos.value =  DatosAProtejer.Apellido
+    Emails.value =  DatosAProtejer.Email
+    Telefonos.value =  DatosAProtejer.Telefono
+    Paises.value =  DatosAProtejer.Email
+    Provincias.value =  DatosAProtejer.Email
+    Postales.value =  DatosAProtejer.Email}
+
+DatosRecuperados()
 
 function TomarCuota(){
     const precio = 50000
     let cuotas = parseInt( document.getElementById("Selecion").value)
     const IVA = 1.21
-    console.log (cotizar(precio, cuotas, IVA));
-    
-    let precios = document.getElementById("Precio")
-    precios.innerText = cotizar()
-    
-     
+    let ValorHTML = document.getElementById("Precio")
+    ValorHTML.innerText = cotizar(precio, cuotas, IVA)
 }
 
 
-
+TomarCuota()

@@ -59,7 +59,9 @@ ul {
     padding: 50px;
     margin: auto;
     margin-top: 100px;
-    margin-bottom: 300px; }
+    margin-bottom: 300px;
+    border-radius: 9px; 
+    box-shadow: 0 0 15px black;  }
   
   h2 {
     text-align: center;
@@ -95,3 +97,7 @@ ul {
   .CajaDeInformacion p {
     color: white;
     margin-top: 40px; }
+
+
+ul:hover{
+  color: #0d6efd;}

@@ -237,3 +237,7 @@ body {
 
 ul {
   list-style-type: none; }
+
+  ul:hover{
+    color: #0d6efd;
+}

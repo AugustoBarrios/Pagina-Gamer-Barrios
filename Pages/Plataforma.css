@@ -42,14 +42,6 @@ body {
   height: 100vh;
   background-size: cover; }
 
-/* h1 {
-  text-align: center;
-  margin-top: 80px;
-  border: 5px var(--bs-body-color) solid;
-  border-radius: 7px;
-  width: 300px;
-  margin-left: auto;
-  margin-right: auto; } */
 
 .btn {
   width: 250px; }
@@ -70,3 +62,7 @@ body {
 
 ul {
   list-style-type: none; }
+
+ul:hover{
+    color: #0d6efd;
+}
