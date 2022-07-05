@@ -54,7 +54,16 @@ function TomarDatos(){
     }
     let Ventas= new Venta(Apellidos, Nombres, Emails, Telefonos, Paises, Provincias, Postales, Tarjetas, Codigos, Vencimientos);
     console.log(Ventas)
-    let Permiso = confirm("Deseas guardar tus datos para facilitar la navegacion?")
+    let Permiso = swal.fire({
+        title: "Pregunta?",
+        text: "Deseas guardar los datos ingresados para facilitar tu navegacion? (Nadie podra verlos)",
+        icon: "question",
+        showConfirmButton: true,
+        showDenyButton: true,
+        confirmButtonText: "Acepto",
+        denyButtonText: "No , gracias",  
+    }); 
+    
     if(Permiso==true){
     let CargarDatos = JSON.stringify(Ventas)
     localStorage.setItem("DatosImportantes", CargarDatos)}
@@ -76,9 +85,9 @@ function DatosRecuperados(){
     Apellidos.value =  DatosAProtejer.Apellido
     Emails.value =  DatosAProtejer.Email
     Telefonos.value =  DatosAProtejer.Telefono
-    Paises.value =  DatosAProtejer.Email
-    Provincias.value =  DatosAProtejer.Email
-    Postales.value =  DatosAProtejer.Email}
+    Paises.value =  DatosAProtejer.pais
+    Provincias.value =  DatosAProtejer.Provincia
+    Postales.value =  DatosAProtejer.postal}
 
 DatosRecuperados()
 
