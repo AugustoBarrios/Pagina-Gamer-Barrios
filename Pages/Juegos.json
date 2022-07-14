@@ -1,0 +1,70 @@
+[
+    {
+        "idProducto": "1",
+        "Titulo": "Minecraft",
+        "Descripcion": "Minecraft es un videojuego de construcción de tipo «mundo abierto» o sandbox creado originalmente por el sueco Markus Persson, y posteriormente desarrollado por Mojang Studios.",
+        "Precio": "$2000",
+        "Imagen": "/asetss/Minecraft.jpg"
+    },
+    {
+        "idProducto": "2",
+        "Titulo": "Call of duty",
+        "Descripcion": "Call of Duty: Modern Warfare es un videojuego de disparos en primera persona desarrollado por Infinity Ward y publicado por Activision. Es el decimosexto juego de la saga Call of Duty y es un reinicio de la serie Modern Warfare.Fue lanzado el 25 de octubre de 2019. La historia toma lugar en el año 2011, donde un líder radical ha ejecutado al presidente Al-Fulani que preside un país sin nombre con localización en Oriente Medio, y un movimiento «ultranacionalista» da inicio a una guerra civil en Rusia.",
+        "Precio": "$3500",
+        "Imagen": "/asetss/Videojuegos-Call of duty.jpg"
+    },
+    {
+        "idProducto": "3",
+        "Titulo": "Elden Ring",
+        "Descripcion": "Elden Ring es un videojuego de rol de acción desarrollado por FromSoftware y publicado por Bandai Namco Entertainment. El videojuego surge de una colaboración entre el director y diseñador Hidetaka Miyazaki y el novelista de fantasía George R. R. Martin. Elden Ring es el nombre de un misterioso concepto que define al mundo mismo. Como se mostró en el avance que presentamos en la conferencia de E3, el “anillo ancestral” o “anillo de las eras” se rompió en mil pedazos. El significado detrás de este suceso es uno de los temas centrales del juego.",
+        "Precio": "$9000",
+        "Imagen": "/asetss/EldenRing.jpg"
+    },
+    {
+        "idProducto": "4",
+        "Titulo": "Minecraft",
+        "Descripcion": "Minecraft es un videojuego de construcción de tipo «mundo abierto» o sandbox creado originalmente por el sueco Markus Persson, y posteriormente desarrollado por Mojang Studios.",
+        "Precio": "$2000",
+        "Imagen": "/asetss/Minecraft.jpg"
+    },
+    {
+        "idProducto": "5",
+        "Titulo": "Call of duty",
+        "Descripcion": "Call of Duty: Modern Warfare es un videojuego de disparos en primera persona desarrollado por Infinity Ward y publicado por Activision. Es el decimosexto juego de la saga Call of Duty y es un reinicio de la serie Modern Warfare.Fue lanzado el 25 de octubre de 2019. La historia toma lugar en el año 2011, donde un líder radical ha ejecutado al presidente Al-Fulani que preside un país sin nombre con localización en Oriente Medio, y un movimiento «ultranacionalista» da inicio a una guerra civil en Rusia.",
+        "Precio": "$3500",
+        "Imagen": "/asetss/Videojuegos-Call of duty.jpg"
+    },
+    {
+        "idProducto": "6",
+        "Titulo": "Elden Ring",
+        "Descripcion": "Elden Ring es un videojuego de rol de acción desarrollado por FromSoftware y publicado por Bandai Namco Entertainment. El videojuego surge de una colaboración entre el director y diseñador Hidetaka Miyazaki y el novelista de fantasía George R. R. Martin. Elden Ring es el nombre de un misterioso concepto que define al mundo mismo. Como se mostró en el avance que presentamos en la conferencia de E3, el “anillo ancestral” o “anillo de las eras” se rompió en mil pedazos. El significado detrás de este suceso es uno de los temas centrales del juego.",
+        "Precio": "$9000",
+        "Imagen": "/asetss/EldenRing.jpg"
+    },{
+        "idProducto": "7",
+        "Titulo": "Minecraft",
+        "Descripcion": "Minecraft es un videojuego de construcción de tipo «mundo abierto» o sandbox creado originalmente por el sueco Markus Persson, y posteriormente desarrollado por Mojang Studios.",
+        "Precio": "$2000",
+        "Imagen": "/asetss/Minecraft.jpg"
+    },
+    {
+        "idProducto": "8",
+        "Titulo": "Call of duty",
+        "Descripcion": "Call of Duty: Modern Warfare es un videojuego de disparos en primera persona desarrollado por Infinity Ward y publicado por Activision. Es el decimosexto juego de la saga Call of Duty y es un reinicio de la serie Modern Warfare.Fue lanzado el 25 de octubre de 2019. La historia toma lugar en el año 2011, donde un líder radical ha ejecutado al presidente Al-Fulani que preside un país sin nombre con localización en Oriente Medio, y un movimiento «ultranacionalista» da inicio a una guerra civil en Rusia.",
+        "Precio": "$3500",
+        "Imagen": "/asetss/Videojuegos-Call of duty.jpg"
+    },
+    {
+        "idProducto": "9",
+        "Titulo": "Elden Ring",
+        "Descripcion": "Elden Ring es un videojuego de rol de acción desarrollado por FromSoftware y publicado por Bandai Namco Entertainment. El videojuego surge de una colaboración entre el director y diseñador Hidetaka Miyazaki y el novelista de fantasía George R. R. Martin. Elden Ring es el nombre de un misterioso concepto que define al mundo mismo. Como se mostró en el avance que presentamos en la conferencia de E3, el “anillo ancestral” o “anillo de las eras” se rompió en mil pedazos. El significado detrás de este suceso es uno de los temas centrales del juego.",
+        "Precio": "$9000",
+        "Imagen": "/asetss/EldenRing.jpg"
+    },{
+        "idProducto": "10",
+        "Titulo": "Minecraft",
+        "Descripcion": "Minecraft es un videojuego de construcción de tipo «mundo abierto» o sandbox creado originalmente por el sueco Markus Persson, y posteriormente desarrollado por Mojang Studios.",
+        "Precio": "$2000",
+        "Imagen": "/asetss/Minecraft.jpg"
+    }
+]
