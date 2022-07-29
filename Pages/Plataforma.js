@@ -1,8 +1,17 @@
 const URL = `/Pages/Plataformas.json`
 const DomContenido = document.getElementById("Contenido")
+const EstructuraCarrito = document.getElementById("ProductosEnCarrito")
+
+const CajaDeProductos = document.getElementById("Productos")
+const TituloDeProducto = document.getElementById("TituloDeProducto")
+const CantidadDeProducto = document.getElementById("CantidadDeProducto")
+const PrecioDeProducto = document.getElementById("PrecioDeProducto")
+const BotonParaAgregar = document.getElementById("NumDeId${idProducto}")
+
+
 
 const CreacionDeHTML = (Productos)=>{
-    const {Titulo, Precio, Descripcion, Imagen} = Productos
+    const {Titulo, Precio, Descripcion, Imagen, idProducto} = Productos
     return `<div class="card mb-1 mt-3 text-light bg-dark" style="border-radius: 10px;">
     <div class="row g-0">
         <div class="col-md-4 mt-5 d-flex justify-content-center">
@@ -17,7 +26,7 @@ const CreacionDeHTML = (Productos)=>{
             </div>
         </div>
         <div class="d-grid gap-2 d-md-flex justify-content-end pb-3 px-3">
-            <a href="./Compra.html"><button class="btn btn-primary me-md-2" type="button">Comprar</button></a>
+            <button id="${idProducto}" onclick="AgregandoProducto()" class="btn btn-primary me-md-2" type="button">Comprar</button>
         </div>
     </div>
 </div>`
@@ -39,36 +48,42 @@ const ProductosJSON = (URL)=> {
 
 ProductosJSON(URL)
 
+let NumDeId = document.getElementById(`${idProducto}`)
+
+const AgregandoProducto = (NumDeId)=>{ 
+
+    const Div1 = document.createElement("Div");
+    const Div2 = document.createElement("Div");
+    const Div3 = document.createElement("Div");
+    const Div4 = document.createElement("div");
+    Div1.classList = "Productos ImagenDeProducto";
+    Div2.classList = "Productos TituloDeProducto";
+    Div3.classList = "Productos CantidadDeProducto";
+    Div4.classList = "Productos PrecioDeProducto";
+    CajaDeProductos.appendChild(Div1);
+    CajaDeProductos.appendChild(Div2);
+    CajaDeProductos.appendChild(Div3);
+    CajaDeProductos.appendChild(Div4);
 
 
+    fetch(URL)
+        .then((Response) => Response.json())
+        .then((data)=>  {
+            
+            let Productos = data.find( Producto=>{
+               return Producto.idProducto == NumDeId });
+                 console.log(Productos)
+        })
 
 
-
-/*  class Plataformas{
-    constructor(Nombre, Modelo, Precio, Stock,){
-        this.Nombres = Nombre
-        this.Modelos = Modelo
-        this.Precios = Precio
-        this.Stocks = Stock
-        this.Id = Math.random()
-    }
-    CalcularIVA() {
-        let Iva = this.Precio = this.Precio * 1.21
-        console.log(Iva)
-    }
-
-    Mensaje() {
-        let Iva = this.Precio = this.Precio * 1.21
-        console.log("El precio final de " + this.Nombre + " es igual a " + Iva )
-    }
-    
 }
 
-const Plataforma1 = new Plataformas ("Play Station 4", "Slim", 50000, 25);
-const Plataforma2 = new Plataformas ("Pc Gamer", "Lenovo", 50000, 15);
-const Plataforma3 = new Plataformas ("X Box One", "S", 50000, 60);
+/* Hola profe el problema es como le dije antes donde dice "producto.idproducto ==" lo que yo pensaba hacer desde un principio
+es agregarle a la funcion "AgregandoProducto" un parametro el cual estuviera vinculado a otra variable que tuviera que estuviera 
+vinculado a la id del producto ,se que es confuso se lo mando como yo lo habia pensado asi usted ve encuentra el error jsj */
 
-const Explorador = [Plataforma1, Plataforma2, Plataforma3]
-console.log(Explorador)
- 
- */
+
+    
+
+
+

@@ -1,69 +1,69 @@
 [
     {
-        "idProducto": "1",
+        "idProducto": 1,
         "Titulo": "Play Sation 4",
         "Descripcion": "PS4 es un sistema de entretenimiento digital y la cuarta consola de sobremesa desarrollada por Sony Computer Entertainment. Cuenta con un procesador APU de ocho núcleos x86-64 Jaguar desarrollado por AMD. La GPU también fabricada por AMD Radeon tiene una potencia de procesamiento de 1,84 Teraflops.",
         "Precio": "$40000",
         "Imagen": "/asetss/Plataforma-Play Station 4-Edit.jpg"
     },
     {
-        "idProducto": "2",
+        "idProducto": 2,
         "Titulo": "Pc Gamer",
         "Descripcion": "Un PC de juegos conocido coloquialmente por su denominación inglesa «PC gaming» es un tipo de PC diseñado y especializado para ejecutar y poder jugar a todo tipo de videojuegos.",
         "Precio": "$200000",
         "Imagen": "/asetss/Plataforma-Pc gamer-Edit.jpg"
     },
     {
-        "idProducto": "3",
+        "idProducto": 3,
         "Titulo": "XBOX ONE",
         "Descripcion": "Xbox es una marca de videojuegos creada por y propiedad de Microsoft que incluye una serie de videoconsolas desarrolladas por la misma compañía, de sexta a novena generación, así como aplicaciones (juegos), servicios de streaming y el servicio en línea Xbox Live.",
         "Precio": "$200000",
         "Imagen": "/asetss/Plataforma-Pc gamer-Edit.jpg"
     },
     {
-        "idProducto": "4",
+        "idProducto": 4,
         "Titulo": "Play Sation 4",
         "Descripcion": "PS4 es un sistema de entretenimiento digital y la cuarta consola de sobremesa desarrollada por Sony Computer Entertainment. Cuenta con un procesador APU de ocho núcleos x86-64 Jaguar desarrollado por AMD. La GPU también fabricada por AMD Radeon tiene una potencia de procesamiento de 1,84 Teraflops.",
         "Precio": "$40000",
         "Imagen": "/asetss/Plataforma-Play Station 4-Edit.jpg"
     },
     {
-        "idProducto": "5",
+        "idProducto": 5,
         "Titulo": "Pc Gamer",
         "Descripcion": "Un PC de juegos conocido coloquialmente por su denominación inglesa «PC gaming» es un tipo de PC diseñado y especializado para ejecutar y poder jugar a todo tipo de videojuegos.",
         "Precio": "$200000",
         "Imagen": "/asetss/Plataforma-Pc gamer-Edit.jpg"
     },
     {
-        "idProducto": "6",
+        "idProducto": 6,
         "Titulo": "XBOX ONE",
         "Descripcion": "Xbox es una marca de videojuegos creada por y propiedad de Microsoft que incluye una serie de videoconsolas desarrolladas por la misma compañía, de sexta a novena generación, así como aplicaciones (juegos), servicios de streaming y el servicio en línea Xbox Live.",
         "Precio": "$200000",
         "Imagen": "/asetss/Plataforma-Pc gamer-Edit.jpg"
     },
     {
-        "idProducto": "7",
+        "idProducto": 7,
         "Titulo": "Play Sation 4",
         "Descripcion": "PS4 es un sistema de entretenimiento digital y la cuarta consola de sobremesa desarrollada por Sony Computer Entertainment. Cuenta con un procesador APU de ocho núcleos x86-64 Jaguar desarrollado por AMD. La GPU también fabricada por AMD Radeon tiene una potencia de procesamiento de 1,84 Teraflops.",
         "Precio": "$40000",
         "Imagen": "/asetss/Plataforma-Play Station 4-Edit.jpg"
     },
     {
-        "idProducto": "8",
+        "idProducto": 8,
         "Titulo": "Pc Gamer",
         "Descripcion": "Un PC de juegos conocido coloquialmente por su denominación inglesa «PC gaming» es un tipo de PC diseñado y especializado para ejecutar y poder jugar a todo tipo de videojuegos.",
         "Precio": "$200000",
         "Imagen": "/asetss/Plataforma-Pc gamer-Edit.jpg"
     },
     {
-        "idProducto": "9",
+        "idProducto": 9,
         "Titulo": "XBOX ONE",
         "Descripcion": "Xbox es una marca de videojuegos creada por y propiedad de Microsoft que incluye una serie de videoconsolas desarrolladas por la misma compañía, de sexta a novena generación, así como aplicaciones (juegos), servicios de streaming y el servicio en línea Xbox Live.",
         "Precio": "$200000",
         "Imagen": "/asetss/Plataforma-Pc gamer-Edit.jpg"
     },
     {
-        "idProducto": "10",
+        "idProducto": 10,
         "Titulo": "Play Sation 4",
         "Descripcion": "PS4 es un sistema de entretenimiento digital y la cuarta consola de sobremesa desarrollada por Sony Computer Entertainment. Cuenta con un procesador APU de ocho núcleos x86-64 Jaguar desarrollado por AMD. La GPU también fabricada por AMD Radeon tiene una potencia de procesamiento de 1,84 Teraflops.",
         "Precio": "$40000",

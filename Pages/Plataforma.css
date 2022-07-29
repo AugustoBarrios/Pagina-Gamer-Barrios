@@ -66,3 +66,80 @@ ul {
 ul:hover{
     color: #0d6efd;
 }
+
+/* .Carrito{
+  
+} */
+
+.Carrito__Boton{
+margin-right: 25px;
+height: 40px;
+width: 55px;
+background-color: #0d6efd;
+border-color: #0d6efd;
+border-radius: 10px;
+transition:box-shadow 1s;
+}
+
+.Carrito__Boton:hover{
+  box-shadow: 0 0 50px #0d6efd;
+}
+
+.Carrito__Boton__Imagen{
+  width: 25px;
+  /* padding-right: 1px; */
+}
+
+.ArmadoDeCarrito{ 
+  margin-left: auto;
+  margin-right: auto;
+  background-color:#313131;
+  border: white solid 2px;
+  height: 250px;
+  width: 500px;
+}
+
+.ArmadoDeCarrito h1{
+  text-align: center;
+  color: white;
+
+}
+
+#CaracteristicasDeProductos{
+  border-bottom: white solid 2px;
+  width: 480px;
+}
+
+.CaracteristicasDeProductos{
+  display: inline-block;
+  color: white;
+  padding-left: 50px;
+
+}
+
+.Productos{
+  background-color: black;
+  width: 80px;
+  color: white;
+  display: inline-block;
+}
+
+.ImagenDeProducto{
+  width: 100px;
+  margin-left: 25px;
+}
+
+.TituloDeProducto{
+  width: 100px;
+  margin-left: 25px;
+}
+
+.CantidadDeProducto{
+  width: auto;
+  margin-left: 40px;
+}
+
+.PrecioDeProducto{
+  width: 80px;
+  margin-left: 60px;
+}
