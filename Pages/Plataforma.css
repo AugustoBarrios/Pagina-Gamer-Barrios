@@ -67,6 +67,10 @@ ul:hover{
     color: #0d6efd;
 }
 
+footer{
+  padding-top: 20%;
+}
+
 /* .Carrito{
   
 } */
@@ -94,9 +98,9 @@ transition:box-shadow 1s;
   margin-left: auto;
   margin-right: auto;
   background-color:#313131;
-  border: white solid 2px;
+  
   height: 250px;
-  width: 500px;
+  width: 1000px;
 }
 
 .ArmadoDeCarrito h1{
@@ -107,39 +111,82 @@ transition:box-shadow 1s;
 
 #CaracteristicasDeProductos{
   border-bottom: white solid 2px;
-  width: 480px;
+  width: 980px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .CaracteristicasDeProductos{
   display: inline-block;
   color: white;
-  padding-left: 50px;
+  padding-left: 140px;
 
 }
 
 .Productos{
-  background-color: black;
-  width: 80px;
+  width: 30px;
   color: white;
   display: inline-block;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+#Productos{
+  width: 1000px;
+}
+
+#Total{
+  border-top: white solid 2px;
+  width: 980px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
+#AdornadoDelTotal{
+  margin-left: 65%;
+  font-size: 25px;
+  color: white;
 }
 
 .ImagenDeProducto{
   width: 100px;
-  margin-left: 25px;
+  margin-left: 125px;
 }
 
 .TituloDeProducto{
   width: 100px;
-  margin-left: 25px;
+  margin-left: 100px;
 }
 
 .CantidadDeProducto{
   width: auto;
-  margin-left: 40px;
+  margin-left: 145px;
 }
 
 .PrecioDeProducto{
   width: 80px;
-  margin-left: 60px;
+  margin-left: 155px;
+}
+
+.TamañoDeImagen{
+  border-radius: 5px;
+  width: 100px;
+  height: 70px;
+}
+
+.BotonDeRemover{
+  border-radius: 10px;
+  border-color: #c00000;
+  background-color: #c00000;
+  transition: box-shadow 0.5s;
+}
+
+.BotonDeRemover:hover{
+  box-shadow: 0 0 20px #c00000;
+}
+
+.ImagenDeRemover{
+  margin-left: 6px;
+  margin-bottom: 2px;
 }

@@ -70,3 +70,125 @@ ul {
   ul:hover{
     color: #0d6efd;
 }
+
+footer{
+  padding-top: 20%;
+}
+
+/* Carrito */
+
+.Carrito__Boton{
+  margin-right: 25px;
+  height: 40px;
+  width: 55px;
+  background-color: #0d6efd;
+  border-color: #0d6efd;
+  border-radius: 10px;
+  transition:box-shadow 1s;
+  }
+  
+  .Carrito__Boton:hover{
+    box-shadow: 0 0 50px #0d6efd;
+  }
+  
+  .Carrito__Boton__Imagen{
+    width: 25px;
+    /* padding-right: 1px; */
+  }
+  
+  .ArmadoDeCarrito{ 
+    margin-left: auto;
+    margin-right: auto;
+    background-color:#313131;
+    
+    height: 250px;
+    width: 1000px;
+  }
+  
+  .ArmadoDeCarrito h1{
+    text-align: center;
+    color: white;
+  
+  }
+  
+  #CaracteristicasDeProductos{
+    border-bottom: white solid 2px;
+    width: 980px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .CaracteristicasDeProductos{
+    display: inline-block;
+    color: white;
+    padding-left: 140px;
+  
+  }
+  
+  .Productos{
+    width: 30px;
+    color: white;
+    display: inline-block;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  
+  #Productos{
+    width: 1000px;
+  }
+  
+  #Total{
+    border-top: white solid 2px;
+    width: 980px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+  }
+  
+  #AdornadoDelTotal{
+    margin-left: 65%;
+    font-size: 25px;
+    color: white;
+  }
+  
+  .ImagenDeProducto{
+    width: 100px;
+    margin-left: 125px;
+  }
+  
+  .TituloDeProducto{
+    width: 100px;
+    margin-left: 100px;
+  }
+  
+  .CantidadDeProducto{
+    width: auto;
+    margin-left: 145px;
+  }
+  
+  .PrecioDeProducto{
+    width: 80px;
+    margin-left: 155px;
+  }
+  
+  .TamañoDeImagen{
+    border-radius: 5px;
+    width: 100px;
+    height: 70px;
+  }
+  
+  .BotonDeRemover{
+    border-radius: 10px;
+    border-color: #c00000;
+    background-color: #c00000;
+    transition: box-shadow 0.5s;
+  }
+  
+  .BotonDeRemover:hover{
+    box-shadow: 0 0 20px #c00000;
+  }
+  
+  .ImagenDeRemover{
+    margin-left: 6px;
+    margin-bottom: 2px;
+  }
