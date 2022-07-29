@@ -29,7 +29,7 @@ const CreacionDeHTML = (Productos) => {
             </div>
         </div>
         <div class="d-grid gap-2 d-md-flex justify-content-end pb-3 px-3">
-            <button id="${idProducto}" onclick="AgregandoProducto(${idProducto})" class="btn btn-primary me-md-2" type="button">Comprar</button>
+            <button id="${idProducto}" onclick="AgregandoProducto(${idProducto})" class="btn btn-primary me-md-2" type="button">Agregar</button>
         </div>
     </div>
 </div>`
@@ -74,12 +74,35 @@ const AgregandoProducto = (NumDeId) => {
                 Sumador += ArrayDePrecios[i]
             }
             TotalAPagar.innerHTML = `<p id="AdornadoDelTotal"><Strong>Total: $${Sumador}</Strong></p></div>`
-            /* RemoverObjeto() */
-        })
-        const RemoverObjeto = ()=>{
-            CajaDeProductos.removeChild(div);
-        }/* El boton para eliminar tiene una falla */
-}
+            AvisoDeAgregado(Productos.Titulo)
+             
+        })}
 
-            
+const RemoverObjeto = ()=>{
+    CajaDeProductos.removeChild(Div);
+    AvisoDeRemovido()}/* El boton para eliminar tiene una falla */
+
+const AvisoDeAgregado = (Producto)=>{
+    swal.fire({
+        text: `Se agrego ${Producto} al carrito.`,
+        timer:1500,
+        toast: true,
+        position: "top-end",
+        showConfirmButton: false,
+        color:"Black",
+        background: "forestgreen",
+    })
+}  
+
+const AvisoDeRemovido = (Producto)=>{
+    swal.fire({
+        text: `Se elimino ${Producto} del carrito.`,
+        timer:1500,
+        toast: true,
+        position: "top-end",
+        showConfirmButton: false,
+        color:"Black",
+        background: "#c00000",
+    })
+}     
 
